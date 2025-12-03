@@ -1,5 +1,16 @@
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+html, body, main {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh; /* or 100% if html/body are set to 100% */
+    width: 100vw;
+}
+iframe {
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
